@@ -1,11 +1,12 @@
-#README.md
+# README.md
 
-#Circle
+# Circle
 
-##For circle run the following code:
+## For circle run the following code:
 
 roslaunch week2 circle.launch
 
-##For eight/infinity run the following code:
+# Eight/Infinity
+## For eight/infinity run the following code:
 
 roslaunch week2 infinity.launch
