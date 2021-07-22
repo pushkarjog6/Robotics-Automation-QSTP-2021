@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch"/>
+  <node pkg="week2" type="radius.py" name="radius"/>
+  <node pkg="week2" type="compute_ang_vel.py" name="compute_ang_vel"/>
+  <node pkg="week2" type="infinity.py" name="infinity"/>
+</launch>
