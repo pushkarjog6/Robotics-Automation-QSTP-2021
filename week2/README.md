@@ -8,4 +8,4 @@ roslaunch week2 circle.launch
 
 ##For eight/infinity run the following code:
 
-roslaunch week2 .launch
+roslaunch week2 infinity.launch
