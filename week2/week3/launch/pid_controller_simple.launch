@@ -1,0 +1,6 @@
+<launch>
+  <arg name="path_topic"/>
+  <include file="$(find turtlebot3_fake)/launch/turtlebot3_fake.launch"/>
+  <node pkg="week3" type="path_publisher.py" name="path_publisher"/>
+  <node pkg="week3" type="pid.py" name="pid" args="$(arg path_topic)"/>
+</launch>
